@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav bar</title>
+    <style>
+        img{
+            width: 150px;
+            height: 60px;
+        }
+        nav ul{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        nav ul li{
+            list-style: none;
+        }
+        nav ul li a {
+            text-decoration: none;
+            text-transform: uppercase;
+            color: black;
+            font-weight: bold;
+
+        }
+        nav ul li a button{
+            width: 100px;
+            border: 0px;
+            background: #F4FDFF;
+            font-size: 16px;
+        }
+        
+        select,option{
+            border: 0px;
+            font-weight: bold;
+        }
+        .btn{
+            border: 1px solid red;
+            height: 40px;
+            background: none;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+     <ul>
+        <li><a href="javascript:void()">
+            <img src="./img/Masai_Logo_dark_web_b21aab8c62.webp" alt="Masai_Logo">
+        </a></li>
+        <li><a href="javascript:void()">
+            <select name="Course" id="Course">
+                <option value="Course">Course</option>
+                <option value="Front-end">Front-end</option>
+                <option value="Backend">Backend</option>
+                <option value="Data analist">Data analist</option>
+            </select>
+        </a></li>
+        <li><a href="javascript:void()">Fee & isa</a></li>
+        <li><a href="javascript:void()">about us</a></li>
+        <li><a href="javascript:void()">hire from us</a></li>
+        <li><a href="javascript:void()">faq</a></li>
+        <li><a href="javascript:void()">event</a></li>
+        <li><a href="javascript:void()">
+            <button>refer & earn</button>
+        </a></li>
+        <li><a href="javascript:void()">
+            <button type="submit" class="btn">Login</button>
+        </a></li>
+     </ul>
+    </nav>
+</body>
+</html>
