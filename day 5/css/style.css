@@ -1,0 +1,21 @@
+.container1{
+    width: 400px;
+    height: 100000px;
+    background-color: teal;
+}
+.container2{
+    width: 300px;
+    height: 400px;
+    background-color: #90d326;
+    /* margin-top: 50px; */
+}
+.container3{
+    width: 200px;
+    height: 200px;
+    background-color: #f11616;
+    position: fixed;
+    /* bottom: 0px; */
+   top: 0px;
+ right: 0px;
+    /* bottom:  0px; */
+}
