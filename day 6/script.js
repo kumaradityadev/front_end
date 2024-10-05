@@ -122,16 +122,81 @@
 // console.log(sqfinal);
 
 
-function adding(a,b){
-    var add = a+b;
-    return add
-}
-var c = adding(2,3)
-console.log(c);
+// function adding(a,b){
+//     var add = a+b;
+//     return add
+// }
+// var c = adding(2,3)
+// console.log(c);
 
-function square(x){
-    var sq = x * x ;
-    return sq ;
+// function square(x){
+//     var sq = x * x ;
+//     return sq ;
+// }
+// var d = square(c)
+// console.log(d);
+
+
+// revision 
+
+// funcation
+
+// function sayname(){
+//     var name = 'Aditya';
+//     console.log(name);
+    
+// }
+// sayname()
+
+//Generic funcation
+
+// function sayName(name){
+//     console.log(name);
+    
+// }
+
+// sayName('Aditya') ;
+// sayName('Adit') ;
+// sayName('Adiii') ;
+// sayName('Adiii') ;
+
+// function adding(a,b){
+//     var add = a+b
+//     return add
+// }
+
+// var c = adding(10,20)
+// console.log(c);
+
+
+// function adding(a,b){
+//     var add = a+b;
+//     return add;
+// }
+// var c = adding (3,2);
+// console.log(c);
+
+// function square(a){
+//     var sq = (a*a)
+//     return sq
+// }
+// var d = square(c)
+// console.log(d);
+
+// Asainment
+
+function primeNumber(num){
+    var factor = 0;
+    for ( var i=0; i<=num; i++){
+        if(num%i==0){
+            factor ++
+        }
+    }
+   
 }
-var d = square(c)
-console.log(d);
+if(factor==2){
+    return true
+}
+else{
+    return false
+}
