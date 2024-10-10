@@ -480,6 +480,12 @@
     }
   }
   console.log(obj);
+//   const fruits = ["apple", "banana", "orange"];
+// const vegetables = ["carrot", "broccoli", "spinach"];
+// const combination = [...fruits, ...vegetables]
+// console.log(combination);
+
+
   
   
   
